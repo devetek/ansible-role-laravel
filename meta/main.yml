@@ -1,0 +1,33 @@
+---
+galaxy_info:
+  role_name: laravel
+  author: prakasa1904
+  namespace: terpusat
+  description: Ansible Galaxy role for PHP RoadRunner.
+  company: Devetek
+  license: MIT
+  min_ansible_version: "2.11"
+
+  platforms:
+    - name: macOS
+      versions:
+        - Ventura
+        - Sierra
+
+    - name: Debian
+      versions:
+        - bookworm
+        - bullseye
+        - buster
+
+    - name: Ubuntu
+      versions:
+        - noble
+        - jammy
+        - focal
+
+  galaxy_tags:
+    - php
+    - laravel
+
+dependencies: []

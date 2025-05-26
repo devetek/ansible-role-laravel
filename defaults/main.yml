@@ -1,0 +1,9 @@
+---
+laravel_source: cli # cli or source (URL)
+laravel_version: "12.0.8"
+laravel_install_path: /var/www/laravel
+laravel_owner: www-data
+laravel_group: www-data
+
+laravel_php_executable: /usr/bin/php8.4
+laravel_composer_executable: /usr/local/bin/composer
