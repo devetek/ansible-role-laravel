@@ -2,4 +2,6 @@
 - hosts: localhost
   remote_user: root
   roles:
-    - ansible-role-php-roadrunner
+    - geerlingguy.php
+    - geerlingguy.composer
+    - devetek.laravel
